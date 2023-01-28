@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.input {
+  width:200px;
+  height:40px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  background-color:rgba(133, 70, 55, 0.788);
+  font-size: 30px;
+  font-weight: 1000;
+  outline:none;
+  text-align: center;
+}
+
+.btn {
+  width:100px;
+  height:60px;
+  background-color: #ff990070;
+  border: 3px solid white;
+  color: rgb(29, 28, 28);
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.btn:hover{
+  background-color: #69b6524f;
+  color: rgb(0, 0, 0);
+}
+
+.greeting{
+  background-color:rgba(160, 103, 28, 0.548);;
+  padding: 2px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: rgb(12, 16, 24);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.Egreeting{
+  background-color:rgba(194, 178, 36, 0.548);;
+  border-radius: 10px;
+  font-size: 40px;
+  color: rgb(12, 16, 24);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
