@@ -36,7 +36,7 @@ function draw() {
   this.msg.position(width/2-600,50);
   this.msg.class("Egreeting");
 
-  if(score === 3) {
+if(score === 3) {
     clear();
     clearClue();
     background(bg2);
@@ -45,7 +45,12 @@ function draw() {
       text: "You found the tressure!",
       imageUrl: "https://www.kindpng.com/picc/m/87-873423_treasure-pirate-treasurechest-chest-gold-treasure-chest-pirate.png",
       imageSize: "300x300",
-      confirmButtonText: "OK"
+      confirmButtonText: "Play Again"
+    },
+    function(confirm) {
+      if (confirm) {
+        location.reload();
+      }
     });
   }
 
